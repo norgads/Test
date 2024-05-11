@@ -1,1 +1,31 @@
+main img {
+  width: 100px;
+  height: 100px;
+  margin-left: 10%;
+  animation-duration: 5s;
+  animation-name: slidein;
+}
 
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+  to {margin-left: 10%;}
+}
+@keyframes test {
+  0% {
+    margin-left: 100%;
+  }
+  30% {
+    margin-left: 0%;
+  }
+  68%,
+  72% {
+    margin-left: 50%;
+  }
+  100% {
+    margin-left: 10%;
+  }
+}
